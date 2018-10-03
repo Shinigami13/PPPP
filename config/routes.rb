@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root 'pokemon#homepage'
   get 'pokemon/index'
   get 'pokemon/show'
   get 'aerodactyl' => 'pokemon#aerodactyl'
