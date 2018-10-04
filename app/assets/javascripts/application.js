@@ -14,3 +14,27 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+
+
+
+v = document.querySelector('#tab-moves-16').querySelectorAll('td.cell-name a')
+function myFunction
+var times = 0;
+undefined
+while(times < v.length) {
+alert(v[times].innerText);
+times = times+1;
+}
+// var parts = string.split(' ');
+// parts.shift(); // parts is modified to remove first word
+// var result;
+// if (parts instanceof Array) {
+//   result = parts.join(' ');
+// }
+// else {
+//   result = parts;
+// }
+// alert(results);
+
+
+//"learns the following moves in Pokémon Ultra Sun & Ultra Moon at the levels specified."

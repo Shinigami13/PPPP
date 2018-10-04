@@ -4,7 +4,9 @@ Rails.application.routes.draw do
   get 'pokemon/show'
   get 'aerodactyl' => 'pokemon#aerodactyl'
   get 'dragonite' => 'pokemon#dragonite'
-  get 'pikachu' => 'pokemon#pikachu'
+  get 'bulbasaur' => 'pokemon#bulbasaur'
+  get 'dratini' => 'pokemon#dratini'
+  get 'dragonair' => 'pokemon#dragonair'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
